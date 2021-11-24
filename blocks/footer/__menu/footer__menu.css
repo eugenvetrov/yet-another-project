@@ -1,0 +1,37 @@
+.footer__menu {
+  display: flex;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    flex-direction: column;
+    align-content: flex-start;
+    width: 100vw;
+    margin: 64px 0 48px 16px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__menu {
+    justify-content: space-between;
+    margin: 88px 69px 24px 24px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__menu {
+    margin: 92px 277px 24px 48px;
+  }
+
+}
+
+@media screen and (min-width: 1184px) {
+  .footer__menu {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,36 @@
+.lead__image {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin: 40px 0 0 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 200px;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead__image {
+    margin: 56px 0 0 0;
+    padding: 0;
+    min-width: 768px;
+    min-height: 480px;
+    max-width: 928px;
+    max-height: 580px;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .lead__image {
+    margin: 64px 0 0 0;
+    padding: 0;
+    min-width: 928px;
+    min-height: 580px;
+    max-width: 984px;
+    max-height: 615px;
+  }
+}
