@@ -6,7 +6,12 @@
   .place__image {
     width: 320px;
     height: 320px;
-    margin: 0;
+  }
+}
+
+@media screen and (min-width: 336px) and (max-width: 767px) {
+  .place__image {
+    margin: 0 16px 0;
   }
 }
 

@@ -30,13 +30,11 @@
     margin: 0;
     width: 100vw;
     height: 62.5vw;
-    background-size: cover;
   }
 
   .cover__background:before {
     width: 100vw;
     height: 62.5vw;
-    background-size: cover;
   }
 }
 
@@ -45,12 +43,10 @@
     margin: 0 auto;
     width: 1184px;
     height: 740px;
-    background-size: cover;
   }
 
   .cover__background:before {
     width: 1184px;
     height: 740px;
-    background-size: cover;
   }
 }

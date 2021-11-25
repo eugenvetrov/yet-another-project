@@ -5,6 +5,7 @@
   align-items: center;
   align-self: center;
   width: 100vw;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 767px) {
