@@ -2,14 +2,17 @@
   display: flex;
   font-weight: 400;
   text-align: center;
-  margin: 0;
-  z-index: 2;
+  margin: 0 auto 0;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  z-index: 3;
 }
 
 @media screen and (max-width: 767px) {
   .cover__subtitle {
-    min-height: 15vw;
-    max-width: 90vw;
+    max-width: 90%;
     font-size: 14px;
     line-height: 16px;
     margin-top: 16px;
@@ -18,7 +21,6 @@
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
-    min-height: 66px;
     max-width: 360px;
     font-size: 18px;
     line-height: 22px;

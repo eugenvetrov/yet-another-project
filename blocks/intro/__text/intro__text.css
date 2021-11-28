@@ -9,8 +9,6 @@
   .intro__text {
     margin: 37px 16px 0;
     min-width: 288px;
-    min-height: 208px;
-    max-height: 520px;
     max-width: 720px;
   }
 }
@@ -19,7 +17,6 @@
   .intro__text {
     margin: 40px 3.125vw 0;
     min-width: 720px;
-    max-height: 208px;
   }
 }
 
@@ -27,7 +24,6 @@
   .intro__text {
     margin: 40px 0 0;
     max-width: 690px;
-    max-height: 208px;
   }
 }
 
@@ -35,6 +31,5 @@
   .intro__text {
     margin: 38px 0 0;
     max-width: 690px;
-    max-height: 208px;
   }
 }

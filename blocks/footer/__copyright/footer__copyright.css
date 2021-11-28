@@ -8,7 +8,7 @@
 @media screen and (max-width: 767px) {
   .footer__copyright {
     justify-content: flex-start;
-    width: 100vw;
+    width: 100%;
     margin-left: 16px;
     font-size: 14px;
     line-height: 14px;

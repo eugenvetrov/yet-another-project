@@ -2,14 +2,18 @@
   display: flex;
   font-weight: 900;
   text-align: center;
-  margin: 0;
-  z-index: 1;
+  margin: 0 auto 0;
+  align-self: flex-end;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  z-index: 3;
 }
 
 @media screen and (max-width: 767px) {
   .cover__title {
-    min-height: 21.875vw;
-    max-width: 90vw;
+    max-width: 90%;
     font-size: 32px;
     line-height: 109%;
   }
@@ -17,7 +21,6 @@
 
 @media screen and (min-width: 768px) {
   .cover__title {
-    min-height: 152px;
     max-width: 560px;
     font-size: 72px;
     line-height: 76px;
