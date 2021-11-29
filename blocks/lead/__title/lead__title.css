@@ -24,8 +24,7 @@
   .lead__title {
   font-size: 40px;
   line-height: 44px;
-  min-width: 90vw;
-  max-width: 27.5vw;
+  width: 288px;
   }
 }
 
