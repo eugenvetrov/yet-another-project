@@ -1,6 +1,7 @@
 .footer__copyright {
   display: flex;
   margin: 0 0 24px 16px;
+  width: 186px;
   font-size: 14px;
   line-height: 16px;
 }
@@ -8,27 +9,29 @@
 @media screen and (max-width: 767px) {
   .footer__copyright {
     justify-content: flex-start;
-    width: 100%;
     margin-left: 16px;
     font-size: 14px;
     line-height: 14px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .footer__copyright {
+    justify-content: flex-end;
     margin: 90px 24px 24px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer__copyright {
+    justify-content: flex-end;
     margin: 94px 48px 24px 0;
   }
 }
 
 @media screen and (min-width: 1184px) {
   .footer__copyright {
+    justify-content: flex-end;
     margin-right: 0;
   }
 }

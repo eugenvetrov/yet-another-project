@@ -2,10 +2,10 @@
   display: grid;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .place {
-    grid-template-columns: 100%;
-    grid-template-rows: 35px minmax(46px, 59px) 320px 1fr;
+    grid-template-columns: 320px;
+    grid-template-rows: 35px max-content 320px 1fr;
     grid-template-areas: "title"
                          "links"
                          "image"
@@ -19,9 +19,26 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 480px) {
   .place {
-  grid-template-columns: 47.5% 48.89%;
+    grid-template-columns: 480px;
+    grid-template-rows: 35px max-content 320px 1fr;
+    grid-template-areas: "title"
+                         "links"
+                         "image"
+                         "description";
+    gap: 32px;
+    margin: 50px 0 0 0;
+  }
+
+  .place:nth-of-type(1) {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+  grid-template-columns: 340px 352px;
   grid-template-rows: max-content 1fr;
   grid-template-areas: "title links"
                        "image description";
@@ -35,9 +52,9 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) {
   .place {
-    grid-template-columns: 47.415% 49.138%;
+    grid-template-columns: 440px 456px;
     grid-template-rows: max-content 1fr;
     grid-template-areas: "title links"
                          "image description";
@@ -53,7 +70,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    grid-template-columns: 46.748% 46.342%;
+    grid-template-columns: 460px 484px;
     grid-template-rows: max-content 1fr;
     grid-template-areas: "title links"
                          "image description";

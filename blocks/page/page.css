@@ -1,16 +1,14 @@
 .page {
   display: flex;
-  font-family: "Inter";
+  font-family: "Inter", "Arial ", sans-serif;
   background-color: #2a2c2f;
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
   color: #fff;
   padding: 0;
   margin: 0;
-  min-width: 100%;
+  justify-content: center;
   flex-wrap: wrap;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }

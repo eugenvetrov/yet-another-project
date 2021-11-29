@@ -4,6 +4,40 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+  .lead {
+    padding: 0;
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .lead {
+    padding: 0;
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead {
+    padding: 0;
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    padding: 0;
+    width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 0;
+    width: 984px;
+  }
 }
