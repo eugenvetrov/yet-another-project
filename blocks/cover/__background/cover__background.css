@@ -11,6 +11,8 @@
   align-self: center;
   flex-direction: column;
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .cover__background:before {
@@ -20,6 +22,11 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   transition: 0.8s;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
 }
 
 .cover__background:hover::before {
@@ -28,13 +35,6 @@
 
 @media screen and (min-width: 320px) {
   .cover__background {
-    margin: 0;
-    width: 320px;
-    min-height: 200px;
-  }
-
-  .cover__background:before {
-    margin: 0;
     width: 320px;
     min-height: 200px;
   }
@@ -42,13 +42,6 @@
 
 @media screen and (min-width: 480px) {
   .cover__background {
-    margin: 0;
-    width: 480px;
-    min-height: 300px;
-  }
-
-  .cover__background::before {
-    margin: 0;
     width: 480px;
     min-height: 300px;
   }
@@ -56,13 +49,6 @@
 
 @media screen and (min-width: 640px) {
   .cover__background {
-    margin: 0;
-    width: 640px;
-    min-height: 400px;
-  }
-
-  .cover__background::before {
-    margin: 0;
     width: 640px;
     min-height: 400px;
   }
@@ -70,13 +56,6 @@
 
 @media screen and (min-width: 768px) {
   .cover__background {
-    margin: 0 auto;
-    width: 768px;
-    min-height: 480px;
-  }
-
-  .cover__background::before {
-    margin: 0 auto;
     width: 768px;
     min-height: 480px;
   }
@@ -84,13 +63,6 @@
 
 @media screen and (min-width: 1024px) {
   .cover__background {
-    margin: 0 auto;
-    width: 1024px;
-    min-height: 640px;
-  }
-
-  .cover__background::before {
-    margin: 0 auto;
     width: 1024px;
     min-height: 640px;
   }
@@ -98,14 +70,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__background {
-    margin: 0 auto;
     width: 1184px;
-    height: 740px;
-  }
-
-  .cover__background:before {
-    margin: 0 auto;
-    width: 1184px;
-    height: 740px;
+    min-height: 740px;
   }
 }

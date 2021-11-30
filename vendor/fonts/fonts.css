@@ -5,7 +5,6 @@
   font-display: swap;
   src: url("./Inter-Regular.woff2") format("woff2"),
        url("./Inter-Regular.woff") format("woff");
-  color: #fff;
 }
 
 @font-face {
@@ -15,7 +14,6 @@
   font-display: swap;
   src: url("./Inter-Bold.woff2") format("woff2"),
        url("./Inter-Bold.woff") format("woff");
-  color: #fff;
 }
 
 @font-face {
@@ -25,5 +23,4 @@
   font-display: swap;
   src: url("./Inter-Black.woff2") format("woff2"),
        url("./Inter-Black.woff") format("woff");
-  color: #fff;
 }
